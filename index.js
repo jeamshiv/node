@@ -4,7 +4,7 @@ const app = express()
 
 const PORT = process.env.PORT || 3000
 
-fs.mkdir('./assets', (err) =>{
+fs.mkdir('./data', (err) =>{
    if(err){
        console.log(err);
    }
